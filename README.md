@@ -25,9 +25,36 @@ Tip: The command will allow you to run a local development server from the [loca
 
 Remove the contents in App.vue and HelloWorld.vue (inside components).
 
-Add these Script in App.vue
+Add these code in App.vue
 ```
 <template>
     <h1> Hello World</h1>
 </template>
 ```
+### Dynamic Hello World
+
+Change the contents in App.vue like this.
+
+```
+<template>
+    <h1>{{message}}</h1>
+</template>
+
+<script>
+export default {
+  name: "App",
+  data() {
+    return {
+      message: "Hello World"
+    };
+  }
+};
+</script>
+
+<style>
+</style>
+
+```
+**<template>** contain html codes, **<script>** contains javascript codes and **<style>** css codes.
+
+    
