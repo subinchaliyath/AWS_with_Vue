@@ -20,3 +20,14 @@ cd example-vue-project
 npm run serve
 ```
 Tip: The command will allow you to run a local development server from the [localhost:8000](http://localhost:8080) address.
+
+### Hello World
+
+Remove the contents in App.vue and HelloWorld.vue (inside components).
+
+Add these Script in App.vue
+```
+<template>
+    <h1> Hello World</h1>
+</template>
+```
