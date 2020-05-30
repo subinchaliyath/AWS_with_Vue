@@ -19,4 +19,4 @@ And repeat
 cd example-vue-project
 npm run serve
 ```
-The command will allow you to run a local development server from the [localhost](http://localhost:8080) address.
+Tip: The command will allow you to run a local development server from the [localhost:8000](http://localhost:8080) address.
