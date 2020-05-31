@@ -55,6 +55,6 @@ export default {
 </style>
 
 ```
-**/<template/>** contain html codes, **/<script/>** contains javascript codes and **/<style/>** css codes.
+Here **template** contain html codes, **script** contains javascript codes and **style** css codes.
 
     
